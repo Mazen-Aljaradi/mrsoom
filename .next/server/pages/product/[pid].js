@@ -5,14 +5,74 @@ exports.id = 260;
 exports.ids = [260];
 exports.modules = {
 
-/***/ 2418:
+/***/ 5658:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   config: () => (/* binding */ config),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   getServerSideProps: () => (/* binding */ getServerSideProps),
+/* harmony export */   getStaticPaths: () => (/* binding */ getStaticPaths),
+/* harmony export */   getStaticProps: () => (/* binding */ getStaticProps),
+/* harmony export */   reportWebVitals: () => (/* binding */ reportWebVitals),
+/* harmony export */   routeModule: () => (/* binding */ routeModule),
+/* harmony export */   unstable_getServerProps: () => (/* binding */ unstable_getServerProps),
+/* harmony export */   unstable_getServerSideProps: () => (/* binding */ unstable_getServerSideProps),
+/* harmony export */   unstable_getStaticParams: () => (/* binding */ unstable_getStaticParams),
+/* harmony export */   unstable_getStaticPaths: () => (/* binding */ unstable_getStaticPaths),
+/* harmony export */   unstable_getStaticProps: () => (/* binding */ unstable_getStaticProps)
+/* harmony export */ });
+/* harmony import */ var next_dist_server_future_route_modules_pages_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(103);
+/* harmony import */ var next_dist_server_future_route_modules_pages_module__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_pages_module__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(771);
+/* harmony import */ var private_next_pages_product_pid_tsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1479);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([private_next_pages_product_pid_tsx__WEBPACK_IMPORTED_MODULE_2__]);
+private_next_pages_product_pid_tsx__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+        // Next.js Route Loader
+        
+        
+
+        // Import the userland code.
+        
+
+        // Re-export the component (should be the default export).
+        /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_product_pid_tsx__WEBPACK_IMPORTED_MODULE_2__, "default"));
+
+        // Re-export methods.
+        const getStaticProps = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_product_pid_tsx__WEBPACK_IMPORTED_MODULE_2__, "getStaticProps")
+        const getStaticPaths = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_product_pid_tsx__WEBPACK_IMPORTED_MODULE_2__, "getStaticPaths")
+        const getServerSideProps = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_product_pid_tsx__WEBPACK_IMPORTED_MODULE_2__, "getServerSideProps")
+        const config = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_product_pid_tsx__WEBPACK_IMPORTED_MODULE_2__, "config")
+        const reportWebVitals = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_product_pid_tsx__WEBPACK_IMPORTED_MODULE_2__, "reportWebVitals")
+
+        // Re-export legacy methods.
+        const unstable_getStaticProps = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_product_pid_tsx__WEBPACK_IMPORTED_MODULE_2__, "unstable_getStaticProps")
+        const unstable_getStaticPaths = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_product_pid_tsx__WEBPACK_IMPORTED_MODULE_2__, "unstable_getStaticPaths")
+        const unstable_getStaticParams = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_product_pid_tsx__WEBPACK_IMPORTED_MODULE_2__, "unstable_getStaticParams")
+        const unstable_getServerProps = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_product_pid_tsx__WEBPACK_IMPORTED_MODULE_2__, "unstable_getServerProps")
+        const unstable_getServerSideProps = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_product_pid_tsx__WEBPACK_IMPORTED_MODULE_2__, "unstable_getServerSideProps")
+
+        // Create and export the route module that will be consumed.
+        const options = {"definition":{"kind":"PAGES","page":"/product/[pid]","pathname":"/product/[pid]","bundlePath":"","filename":""}}
+        const routeModule = new (next_dist_server_future_route_modules_pages_module__WEBPACK_IMPORTED_MODULE_0___default())({ ...options, userland: private_next_pages_product_pid_tsx__WEBPACK_IMPORTED_MODULE_2__ })
+        
+        
+    
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
+
+/***/ }),
+
+/***/ 821:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5893);
 
 const Breadcrumb = ()=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
         className: "breadcrumb",
@@ -30,38 +90,37 @@ const Breadcrumb = ()=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_
                         })
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                        children: "\u062C\u0645\u064A\u0639 \u0627\u0644\u0645\u0646\u062A\u062C\u0627\u062A"
+                        children: "جميع المنتجات"
                     })
                 ]
             })
         })
-    })
-;
+    });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Breadcrumb);
 
 
 /***/ }),
 
-/***/ 3453:
+/***/ 9255:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ content)
+  Z: () => (/* binding */ content)
 });
 
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(5893);
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
 ;// CONCATENATED MODULE: ./utils/data/products-colors.ts
 const productsColors = [
     {
         id: "1",
-        label: "\u0627\u062D\u0645\u0631",
+        label: "احمر",
         color: "#d10230"
-    }, 
+    }
 ];
 /* harmony default export */ const products_colors = (productsColors);
 
@@ -91,23 +150,23 @@ const productsSizes = [
         id: "5",
         // label: 'XL',
         label: "62"
-    }, 
+    }
 ];
 /* harmony default export */ const products_sizes = (productsSizes);
 
 ;// CONCATENATED MODULE: ./components/products-filter/form-builder/checkbox-color/index.tsx
 
-const CheckboxColor = ({ color , name , type ="checkbox" , onChange , valueName  })=>{
+const CheckboxColor = ({ color, name, type = "checkbox", onChange, valueName })=>{
     const onSelect = (e)=>{
         if (onChange) {
             onChange(e.target.getAttribute("data-name"));
         }
     };
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("label", {
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("label", {
         htmlFor: color + "-" + name,
         className: `checkbox-color`,
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("input", {
+            /*#__PURE__*/ jsx_runtime.jsx("input", {
                 onChange: onSelect,
                 value: color,
                 "data-name": valueName,
@@ -115,9 +174,9 @@ const CheckboxColor = ({ color , name , type ="checkbox" , onChange , valueName 
                 type: type,
                 id: color + "-" + name
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+            /*#__PURE__*/ jsx_runtime.jsx("span", {
                 className: "checkbox__check",
-                children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                children: /*#__PURE__*/ jsx_runtime.jsx("span", {
                     className: "checkbox__color",
                     style: {
                         backgroundColor: color
@@ -134,9 +193,9 @@ var external_react_redux_ = __webpack_require__(6022);
 // EXTERNAL MODULE: external "lodash"
 var external_lodash_ = __webpack_require__(6517);
 // EXTERNAL MODULE: ./store/reducers/cart.ts
-var cart = __webpack_require__(1502);
+var cart = __webpack_require__(3308);
 // EXTERNAL MODULE: ./store/reducers/user.ts
-var user = __webpack_require__(4912);
+var user = __webpack_require__(3124);
 ;// CONCATENATED MODULE: ./components/product-single/content/index.tsx
 
 
@@ -147,19 +206,15 @@ var user = __webpack_require__(4912);
 
 
 
-const Content = ({ product  })=>{
+const Content = ({ product })=>{
     const dispatch = (0,external_react_redux_.useDispatch)();
-    const { 0: count , 1: setCount  } = (0,external_react_.useState)(1);
-    const { 0: color , 1: setColor  } = (0,external_react_.useState)("");
-    const { 0: itemSize , 1: setItemSize  } = (0,external_react_.useState)("");
-    const onColorSet = (e)=>setColor(e)
-    ;
-    const onSelectChange = (e)=>setItemSize(e.target.value)
-    ;
-    const { favProducts  } = (0,external_react_redux_.useSelector)((state)=>state.user
-    );
-    const isFavourite = (0,external_lodash_.some)(favProducts, (productId)=>productId === product.id
-    );
+    const [count, setCount] = (0,external_react_.useState)(1);
+    const [color, setColor] = (0,external_react_.useState)("");
+    const [itemSize, setItemSize] = (0,external_react_.useState)("");
+    const onColorSet = (e)=>setColor(e);
+    const onSelectChange = (e)=>setItemSize(e.target.value);
+    const { favProducts } = (0,external_react_redux_.useSelector)((state)=>state.user);
+    const isFavourite = (0,external_lodash_.some)(favProducts, (productId)=>productId === product.id);
     const toggleFav = ()=>{
         dispatch((0,user/* toggleFavProduct */._m)({
             id: product.id
@@ -181,144 +236,139 @@ const Content = ({ product  })=>{
         };
         dispatch((0,cart/* addProduct */.gK)(productStore));
     };
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("section", {
         className: "product-content",
         children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
                 className: "product-content__intro",
                 children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h5", {
+                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("h5", {
                         className: "product__id",
                         children: [
-                            "\u0645\u0639\u0631\u0641 \u0627\u0644\u0645\u0646\u062A\u062C:",
-                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                            "معرف المنتج:",
+                            /*#__PURE__*/ jsx_runtime.jsx("br", {}),
                             product.id
                         ]
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                    /*#__PURE__*/ jsx_runtime.jsx("h2", {
                         className: "product__name",
                         children: product.name
                     }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
                         className: "product__prices",
                         children: [
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h4", {
+                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("h4", {
                                 children: [
                                     product.currentPrice,
                                     " ",
-                                    /*#__PURE__*/ jsx_runtime_.jsx("sup", {
-                                        children: "\u0631.\u0633"
+                                    /*#__PURE__*/ jsx_runtime.jsx("sup", {
+                                        children: "ر.س"
                                     })
                                 ]
                             }),
-                            product.discount && /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
+                            product.discount && /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                                 className: "textdecoration",
                                 children: [
                                     product.price,
-                                    " \u0631.\u0633"
+                                    " ر.س"
                                 ]
                             })
                         ]
                     })
                 ]
             }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
                 className: "product-content__filters",
                 children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
                         className: "product-filter-item",
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("h5", {
-                                children: "\u0627\u0644\u0644\u0648\u0646:"
+                            /*#__PURE__*/ jsx_runtime.jsx("h5", {
+                                children: "اللون:"
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            /*#__PURE__*/ jsx_runtime.jsx("div", {
                                 className: "checkbox-color-wrapper",
-                                children: products_colors.map((type)=>/*#__PURE__*/ jsx_runtime_.jsx(checkbox_color, {
+                                children: products_colors.map((type)=>/*#__PURE__*/ jsx_runtime.jsx(checkbox_color, {
                                         type: "radio",
                                         name: "product-color",
                                         color: type.color,
                                         valueName: type.label,
                                         onChange: onColorSet
-                                    }, type.id)
-                                )
+                                    }, type.id))
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
                         className: "product-filter-item",
                         children: [
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h5", {
+                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("h5", {
                                 children: [
-                                    "\u0627\u0644\u062D\u062C\u0645: ",
-                                    /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                        children: " \u0627\u0646\u0638\u0631 \u062C\u062F\u0648\u0644 \u0627\u0644\u0645\u0642\u0627\u0633\u0627\u062A"
+                                    "الحجم: ",
+                                    /*#__PURE__*/ jsx_runtime.jsx("strong", {
+                                        children: " انظر جدول المقاسات"
                                     })
                                 ]
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            /*#__PURE__*/ jsx_runtime.jsx("div", {
                                 className: "checkbox-color-wrapper",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                children: /*#__PURE__*/ jsx_runtime.jsx("div", {
                                     className: "select-wrapper",
-                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("select", {
+                                    children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("select", {
                                         onChange: onSelectChange,
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("option", {
-                                                children: "\u0627\u062E\u062A\u0631 \u0627\u0644\u062D\u062C\u0645"
+                                            /*#__PURE__*/ jsx_runtime.jsx("option", {
+                                                children: "اختر الحجم"
                                             }),
-                                            products_sizes.map((type)=>/*#__PURE__*/ jsx_runtime_.jsx("option", {
+                                            products_sizes.map((type)=>/*#__PURE__*/ jsx_runtime.jsx("option", {
                                                     value: type.label,
                                                     children: type.label
-                                                })
-                                            )
+                                                }))
                                         ]
                                     })
                                 })
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
                         className: "product-filter-item",
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("h5", {
-                                children: "\u0627\u0644\u0643\u0645\u064A\u0629:"
+                            /*#__PURE__*/ jsx_runtime.jsx("h5", {
+                                children: "الكمية:"
                             }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
                                 className: "quantity-buttons",
                                 children: [
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
                                         className: "quantity-button",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                            /*#__PURE__*/ jsx_runtime.jsx("button", {
                                                 type: "button",
-                                                onClick: ()=>setCount(count - 1)
-                                                ,
+                                                onClick: ()=>setCount(count - 1),
                                                 className: "quantity-button__btn",
                                                 children: "-"
                                             }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            /*#__PURE__*/ jsx_runtime.jsx("span", {
                                                 children: count
                                             }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                            /*#__PURE__*/ jsx_runtime.jsx("button", {
                                                 type: "button",
-                                                onClick: ()=>setCount(count + 1)
-                                                ,
+                                                onClick: ()=>setCount(count + 1),
                                                 className: "quantity-button__btn",
                                                 children: "+"
                                             })
                                         ]
                                     }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                    /*#__PURE__*/ jsx_runtime.jsx("button", {
                                         type: "submit",
-                                        onClick: ()=>addToCart()
-                                        ,
+                                        onClick: ()=>addToCart(),
                                         className: "btn btn--rounded btn--yellow",
-                                        children: "\u0623\u0636\u0641 \u0625\u0644\u0649 \u0627\u0644\u0633\u0644\u0629"
+                                        children: "أضف إلى السلة"
                                     }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                    /*#__PURE__*/ jsx_runtime.jsx("button", {
                                         type: "button",
                                         onClick: toggleFav,
                                         className: `btn-heart ${isFavourite ? "btn-heart--active" : ""}`,
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
+                                        children: /*#__PURE__*/ jsx_runtime.jsx("i", {
                                             className: "icon-heart"
                                         })
                                     })
@@ -336,16 +386,15 @@ const Content = ({ product  })=>{
 
 /***/ }),
 
-/***/ 7614:
+/***/ 2417:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5893);
 
-const Description = ({ show  })=>{
+const Description = ({ show })=>{
     const style = {
         display: show ? "flex" : "none"
     };
@@ -359,14 +408,14 @@ const Description = ({ show  })=>{
                     className: "icon-cart"
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-                    children: "\u0627\u0644\u062A\u0641\u0627\u0635\u064A\u0644 \u0648\u0648\u0635\u0641 \u0627\u0644\u0645\u0646\u062A\u062C"
+                    children: "التفاصيل ووصف المنتج"
                 }),
                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                     children: [
-                        "\u0634\u0645\u0627\u063A \u0645\u0631\u0633\u0648\u0645 \u0645\u0646\u0633\u0648\u062C \u0645\u0646 \u0623\u0642\u0645\u0634\u0629 \u0639\u0627\u0644\u064A\u0629 \u0627\u0644\u062C\u0648\u062F\u0629\u060C \u0648\u064A\u062A\u0645 \u0635\u0628\u0627\u063A\u062A\u0647\u0627 \u0628\u0623\u0644\u0648\u0627\u0646 \u0632\u0627\u0647\u064A\u0629 \u062A\u062F\u0648\u0645 \u0637\u0648\u064A\u0644\u0627\u064B. \u0648\u064A\u064F\u0635\u0645\u0645 \u0627\u0644\u0634\u0645\u0627\u063A \u0628\u0623\u0634\u0643\u0627\u0644 \u0648\u0623\u062D\u062C\u0627\u0645 \u0645\u062E\u062A\u0644\u0641\u0629\u060C \u0628\u0645\u0627 \u064A\u062A\u0646\u0627\u0633\u0628 \u0645\u0639 \u0631\u063A\u0628\u0627\u062A \u0648\u0627\u062D\u062A\u064A\u0627\u062C\u0627\u062A \u0627\u0644\u0631\u062C\u0627\u0644",
+                        "شماغ مرسوم منسوج من أقمشة عالية الجودة، ويتم صباغتها بألوان زاهية تدوم طويلاً. ويُصمم الشماغ بأشكال وأحجام مختلفة، بما يتناسب مع رغبات واحتياجات الرجال",
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                        "\u064A\u064F\u0639\u062F \u0645\u0631\u0633\u0648\u0645 \u0625\u0636\u0627\u0641\u0629 \u0623\u0646\u064A\u0642\u0629 \u0625\u0644\u0649 \u0627\u0644\u0632\u064A \u0627\u0644\u0631\u062C\u0627\u0644\u064A\u060C \u0648\u064A\u0645\u0646\u062D \u0627\u0644\u0631\u062C\u0644 \u0645\u0638\u0647\u0631\u064B\u0627 \u0645\u0645\u064A\u0632\u064B\u0627. \u0643\u0645\u0627 \u0623\u0646\u0647 \u064A\u064F\u0639\u062F \u062A\u0639\u0628\u064A\u0631\u064B\u0627 \u0639\u0646 \u062D\u0628\xa0\u0627\u0644\u0648\u0637\u0646\xa0\u0648\u062A\u0642\u062F\u064A\u0631\u0647"
+                        "يُعد مرسوم إضافة أنيقة إلى الزي الرجالي، ويمنح الرجل مظهرًا مميزًا. كما أنه يُعد تعبيرًا عن حب\xa0الوطن\xa0وتقديره"
                     ]
                 })
             ]
@@ -378,16 +427,15 @@ const Description = ({ show  })=>{
 
 /***/ }),
 
-/***/ 1357:
+/***/ 1644:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5893);
 
-const Gallery = ({ images  })=>{
+const Gallery = ({ images })=>{
     const featImage = images[0];
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
         className: "product-gallery",
@@ -400,8 +448,7 @@ const Gallery = ({ images  })=>{
                             src: image,
                             alt: ""
                         })
-                    }, image)
-                )
+                    }, image))
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "product-gallery__image",
@@ -418,23 +465,22 @@ const Gallery = ({ images  })=>{
 
 /***/ }),
 
-/***/ 3512:
+/***/ 6247:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _reviews_list__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6189);
-/* harmony import */ var _punctuation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9272);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5893);
+/* harmony import */ var _reviews_list__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6061);
+/* harmony import */ var _punctuation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1146);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_punctuation__WEBPACK_IMPORTED_MODULE_2__]);
 _punctuation__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
 
 
-const Reviews = ({ show , product  })=>{
+const Reviews = ({ show, product })=>{
     const style = {
         display: show ? "flex" : "none"
     };
@@ -462,15 +508,14 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 9272:
+/***/ 1146:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5893);
 /* harmony import */ var react_rater__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8405);
 /* harmony import */ var react_rater__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_rater__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _nextui_org_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2406);
@@ -479,11 +524,11 @@ _nextui_org_react__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__
 
 
 
-const Punctuation = ({ votes , punctuation , countOpinions  })=>{
+const Punctuation = ({ votes, punctuation, countOpinions })=>{
     const percentageBar = (count)=>{
         return count * 100 / countOpinions;
     };
-    const { isOpen , onOpen , onOpenChange  } = (0,_nextui_org_react__WEBPACK_IMPORTED_MODULE_2__.useDisclosure)();
+    const { isOpen, onOpen, onOpenChange } = (0,_nextui_org_react__WEBPACK_IMPORTED_MODULE_2__.useDisclosure)();
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
         className: "product-punctuation",
         children: [
@@ -534,8 +579,7 @@ const Punctuation = ({ votes , punctuation , countOpinions  })=>{
                                     })
                                 })
                             ]
-                        }, vote.count)
-                    )
+                        }, vote.count))
                 })
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -606,17 +650,17 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 6189:
+/***/ 6061:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ reviews_list)
+  Z: () => (/* binding */ reviews_list)
 });
 
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(5893);
 // EXTERNAL MODULE: external "react-rater"
 var external_react_rater_ = __webpack_require__(8405);
 var external_react_rater_default = /*#__PURE__*/__webpack_require__.n(external_react_rater_);
@@ -632,39 +676,38 @@ const createMarkup = (content)=>{
 
 
 
-const ReviewsList = ({ reviews  })=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
+const ReviewsList = ({ reviews })=>{
+    return /*#__PURE__*/ jsx_runtime.jsx("section", {
         className: "reviews-list",
-        children: reviews.map((review, index)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        children: reviews.map((review, index)=>/*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
                 className: "review-item",
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    /*#__PURE__*/ jsx_runtime.jsx("div", {
                         className: "review__avatar",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                        children: /*#__PURE__*/ jsx_runtime.jsx("img", {
                             src: review.avatar,
                             alt: "avatar"
                         })
                     }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
                         className: "review__content",
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                            /*#__PURE__*/ jsx_runtime.jsx("h3", {
                                 children: review.name
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx((external_react_rater_default()), {
+                            /*#__PURE__*/ jsx_runtime.jsx((external_react_rater_default()), {
                                 total: 5,
                                 interactive: false,
                                 rating: review.punctuation
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            /*#__PURE__*/ jsx_runtime.jsx("div", {
                                 className: "review__comment",
                                 dangerouslySetInnerHTML: markup(review.description)
                             })
                         ]
                     })
                 ]
-            }, index)
-        )
+            }, index))
     });
 };
 /* harmony default export */ const reviews_list = (ReviewsList);
@@ -672,28 +715,27 @@ const ReviewsList = ({ reviews  })=>{
 
 /***/ }),
 
-/***/ 2551:
+/***/ 1479:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   "getServerSideProps": () => (/* binding */ getServerSideProps)
+/* harmony export */   getServerSideProps: () => (/* binding */ getServerSideProps)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5893);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8173);
-/* harmony import */ var _layouts_Main__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1659);
-/* harmony import */ var _components_breadcrumb__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(2418);
-/* harmony import */ var _components_products_featured__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(9952);
-/* harmony import */ var _components_product_single_gallery__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(1357);
-/* harmony import */ var _components_product_single_content__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(3453);
-/* harmony import */ var _components_product_single_description__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(7614);
-/* harmony import */ var _components_product_single_reviews__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(3512);
-/* harmony import */ var _utils_server__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(9708);
+/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4953);
+/* harmony import */ var _layouts_Main__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5731);
+/* harmony import */ var _components_breadcrumb__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(821);
+/* harmony import */ var _components_products_featured__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(9843);
+/* harmony import */ var _components_product_single_gallery__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(1644);
+/* harmony import */ var _components_product_single_content__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(9255);
+/* harmony import */ var _components_product_single_description__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(2417);
+/* harmony import */ var _components_product_single_reviews__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(6247);
+/* harmony import */ var _utils_server__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(4792);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_product_single_reviews__WEBPACK_IMPORTED_MODULE_9__]);
 _components_product_single_reviews__WEBPACK_IMPORTED_MODULE_9__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -707,7 +749,7 @@ _components_product_single_reviews__WEBPACK_IMPORTED_MODULE_9__ = (__webpack_asy
 
 
 
-const getServerSideProps = async ({ query  })=>{
+const getServerSideProps = async ({ query })=>{
     const pid = query.pid;
     const res = await fetch(`${_utils_server__WEBPACK_IMPORTED_MODULE_10__/* .server */ .f}/api/product/${pid}`);
     const product = await res.json();
@@ -717,8 +759,8 @@ const getServerSideProps = async ({ query  })=>{
         }
     };
 };
-const Product = ({ product  })=>{
-    const { 0: showBlock , 1: setShowBlock  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)("description");
+const Product = ({ product })=>{
+    const [showBlock, setShowBlock] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)("description");
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_layouts_Main__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_breadcrumb__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {}),
@@ -746,17 +788,15 @@ const Product = ({ product  })=>{
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
                                             type: "button",
-                                            onClick: ()=>setShowBlock("description")
-                                            ,
+                                            onClick: ()=>setShowBlock("description"),
                                             className: `btn btn--rounded btn-to ${showBlock === "description" ? "btn--active" : ""}`,
-                                            children: "\u0627\u0644\u0648\u0635\u0641"
+                                            children: "الوصف"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
                                             type: "button",
-                                            onClick: ()=>setShowBlock("reviews")
-                                            ,
+                                            onClick: ()=>setShowBlock("reviews"),
                                             className: `btn btn--rounded btn-to ${showBlock === "reviews" ? "btn--active" : ""}`,
-                                            children: "\u0627\u0644\u062A\u0639\u0644\u064A\u0642\u0627\u062A"
+                                            children: "التعليقات"
                                         })
                                     ]
                                 }),
@@ -787,14 +827,14 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 9708:
+/***/ 4792:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "f": () => (/* binding */ server)
+/* harmony export */   f: () => (/* binding */ server)
 /* harmony export */ });
 const dev = "production" !== "production";
-const server = dev ? "http://localhost:3000" : "mrsoom-72g7w2rn1-mazen-aljaradi.vercel.app";
+const server = dev ? "mrsoom.vercel.app" : "mrsoom.vercel.app";
 
 
 /***/ }),
@@ -810,6 +850,48 @@ module.exports = require("@reduxjs/toolkit");
 /***/ ((module) => {
 
 module.exports = require("lodash");
+
+/***/ }),
+
+/***/ 3076:
+/***/ ((module) => {
+
+module.exports = require("next/dist/server/future/route-modules/route-module.js");
+
+/***/ }),
+
+/***/ 3100:
+/***/ ((module) => {
+
+module.exports = require("next/dist/server/render.js");
+
+/***/ }),
+
+/***/ 3918:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/amp-context.js");
+
+/***/ }),
+
+/***/ 5732:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/amp-mode.js");
+
+/***/ }),
+
+/***/ 3280:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/app-router-context.js");
+
+/***/ }),
+
+/***/ 5830:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/bloom-filter.js");
 
 /***/ }),
 
@@ -855,6 +937,27 @@ module.exports = require("next/dist/shared/lib/router-context.js");
 
 /***/ }),
 
+/***/ 1751:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix.js");
+
+/***/ }),
+
+/***/ 6220:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/compare-states.js");
+
+/***/ }),
+
+/***/ 299:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/format-next-pathname-info.js");
+
+/***/ }),
+
 /***/ 3938:
 /***/ ((module) => {
 
@@ -869,10 +972,31 @@ module.exports = require("next/dist/shared/lib/router/utils/get-asset-path-from-
 
 /***/ }),
 
-/***/ 4365:
+/***/ 5789:
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/router/utils/get-middleware-regex.js");
+module.exports = require("next/dist/shared/lib/router/utils/get-next-pathname-info.js");
+
+/***/ }),
+
+/***/ 1668:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll.js");
+
+/***/ }),
+
+/***/ 3773:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/interpolate-as.js");
+
+/***/ }),
+
+/***/ 1897:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/is-bot.js");
 
 /***/ }),
 
@@ -883,6 +1007,27 @@ module.exports = require("next/dist/shared/lib/router/utils/is-dynamic.js");
 
 /***/ }),
 
+/***/ 1109:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/is-local-url.js");
+
+/***/ }),
+
+/***/ 4639:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/omit.js");
+
+/***/ }),
+
+/***/ 8854:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/parse-path.js");
+
+/***/ }),
+
 /***/ 1292:
 /***/ ((module) => {
 
@@ -890,10 +1035,24 @@ module.exports = require("next/dist/shared/lib/router/utils/parse-relative-url.j
 
 /***/ }),
 
-/***/ 979:
+/***/ 4567:
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/router/utils/querystring.js");
+module.exports = require("next/dist/shared/lib/router/utils/path-has-prefix.js");
+
+/***/ }),
+
+/***/ 3297:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slash.js");
+
+/***/ }),
+
+/***/ 7782:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/resolve-href.js");
 
 /***/ }),
 
@@ -918,6 +1077,13 @@ module.exports = require("next/dist/shared/lib/router/utils/route-regex.js");
 
 /***/ }),
 
+/***/ 2470:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/side-effect.js");
+
+/***/ }),
+
 /***/ 9232:
 /***/ ((module) => {
 
@@ -925,17 +1091,10 @@ module.exports = require("next/dist/shared/lib/utils.js");
 
 /***/ }),
 
-/***/ 968:
+/***/ 618:
 /***/ ((module) => {
 
-module.exports = require("next/head");
-
-/***/ }),
-
-/***/ 1853:
-/***/ ((module) => {
-
-module.exports = require("next/router");
+module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
 
@@ -943,6 +1102,13 @@ module.exports = require("next/router");
 /***/ ((module) => {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ 6405:
+/***/ ((module) => {
+
+module.exports = require("react-dom");
 
 /***/ }),
 
@@ -957,13 +1123,6 @@ module.exports = require("react-rater");
 /***/ ((module) => {
 
 module.exports = require("react-redux");
-
-/***/ }),
-
-/***/ 997:
-/***/ ((module) => {
-
-module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
@@ -1002,7 +1161,7 @@ module.exports = import("@nextui-org/react");;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [505,664,778,912,66,502,952], () => (__webpack_exec__(2551)));
+var __webpack_exports__ = __webpack_require__.X(0, [761,576,468,169,686,572,371,124,290,308,843], () => (__webpack_exec__(5658)));
 module.exports = __webpack_exports__;
 
 })();
