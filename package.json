@@ -15,10 +15,10 @@
     "nextjs",
     "next"
   ],
-  "dependencies": 
-  "@nextui-org/react": "^2.2.9",
+  "dependencies": {
+    "@nextui-org/react": "^2.2.9",
     "@reduxjs/toolkit": "^1.8.1",
-   "framer-motion": "^10.16.5",
+    "framer-motion": "^10.16.5",
     "lodash": "^4.17.21",
     "next": "^12.1.0",
     "next-redux-wrapper": "^6.0.2",
