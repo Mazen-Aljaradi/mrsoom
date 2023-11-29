@@ -2,11 +2,10 @@
   "name": "next-ecommerce",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start ",
+    "start": "next start",
     "export": "next build && next export"
   },
   "keywords": [
@@ -16,11 +15,10 @@
     "nextjs",
     "next"
   ],
-  "dependencies": {
-    "@nextui-org/react": "^2.2.9",
+  "dependencies": 
+  "@nextui-org/react": "^2.2.9",
     "@reduxjs/toolkit": "^1.8.1",
-    "@swc/helpers": "^0.5.3",
-    "framer-motion": "^10.16.5",
+   "framer-motion": "^10.16.5",
     "lodash": "^4.17.21",
     "next": "^12.1.0",
     "next-redux-wrapper": "^6.0.2",
