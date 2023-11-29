@@ -18,7 +18,7 @@
   "dependencies": {
     "@nextui-org/react": "^2.2.9",
     "@reduxjs/toolkit": "^1.8.1",
-    
+     "@swc/helpers": "^0.5.3",
     "framer-motion": "^10.16.5",
     "lodash": "^4.17.21",
     "next": "13.2.4",
