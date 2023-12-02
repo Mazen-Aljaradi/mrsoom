@@ -7,7 +7,7 @@ const Subscribe = () => {
 
           <form className="subscribe__form">
             <button type="submit" className="btn  btn--whatsapp">
-              <a href={`whatsapp://send?phone=966534828530&text=السلام عليكم، وصلت إليكم من خلال متجر مرسوم وأريد الاستفسار ..`}> تواصل معنا</a>
+              <a href={`whatsapp://send?phone=966551802561&text=السلام عليكم، وصلت إليكم من خلال متجر مرسوم وأريد الاستفسار ..`}> تواصل معنا</a>
             </button>
 
           </form>

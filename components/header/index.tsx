@@ -57,17 +57,17 @@ const Header = ({ isErrorPage }: HeaderType) => {
     <header className={`site-header ${!onTop ? 'site-header--fixed' : ''}`}>
       <div className="container">
         <Link href="/">
-          <a><h1 className="site-logo">مرسوم<img src='/images/logo.png' width={"50px"} /></h1></a>
+          <h1 className="site-logo"><img src='/images/logo.png' width={"50px"} /></h1>
         </Link>
         <nav ref={navRef} className={`site-nav ${menuOpen ? 'site-nav--open' : ''}`}>
           <Link href="/">
-            <a>الرئيسية</a>
+            الرئيسية
           </Link>
           <Link href="#">
-            <a>تواصل معنا</a>
+            تواصل معنا
           </Link>
           <Link href="#">
-            <a>من نحن</a>
+            من نحن
           </Link>
 
           {/* <button className="site-nav__btn"><p>Account</p></button> */}

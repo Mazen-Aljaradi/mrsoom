@@ -20,7 +20,7 @@ type ProductPageType = {
 
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const pid = query.pid;
-  const res = await fetch(`${server}/api/product/${pid}`);
+  const res = await fetch(`https://mrsoom.vercel.app/api/product/${pid}`);
   const product = await res.json();
 
   return {
@@ -47,7 +47,7 @@ const Product = ({ product }: ProductPageType) => {
           <div className="product-single__info">
             <div className="product-single__info-btns">
               <button type="button" onClick={() => setShowBlock('description')} className={`btn btn--rounded btn-to ${showBlock === 'description' ? 'btn--active' : ''}`}>الوصف</button>
-              <button type="button" onClick={() => setShowBlock('reviews')} className={`btn btn--rounded btn-to ${showBlock === 'reviews' ? 'btn--active' : ''}`}>التعليقات</button>
+              {/* <button type="button" onClick={() => setShowBlock('reviews')} className={`btn btn--rounded btn-to ${showBlock === 'reviews' ? 'btn--active' : ''}`}>التعليقات</button> */}
             </div>
 
             <Description show={showBlock === 'description'} />

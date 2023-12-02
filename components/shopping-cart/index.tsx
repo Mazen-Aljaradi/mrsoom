@@ -93,7 +93,7 @@ const ShoppingCart = () => {
             {/* <a href="/cart/checkout" className="btn btn--rounded btn--yellow">شراء</a> */}
 
             {cartItems.length > 0
-              ? <a href={`whatsapp://send?phone=966534828530&text=${myfunction()}`}
+              ? <a href={`whatsapp://send?phone=966551802561&text=${myfunction()}`}
 
                 className="btn btn--rounded btn--yellow" >شراء</a>
               : <a href="#" className="btn btn--rounded btn--yellow">شراء</a>

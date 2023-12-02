@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="site-footer__description">
             {/* <h6><Logo /> <span>E</span>-Shop</h6> */}
             <Link href="/">
-              <a><h6 className="site-logo">مرسوم<img src='/images/logo.png' width={"50px"} /></h6></a>
+              <h6 className="site-logo"><img src='/images/logo.png' width={"80px"} /></h6>
             </Link>
             <p>مرسوم اسم ملكي يحمل دلالة المراسيم الملكية
               مرسوم يحمل خريطة المملكة العربية السعودية مرسومة على نسيجه
