@@ -16,7 +16,7 @@ const Footer = () => {
               مرسوم يضيف الفخامة لزيك الرسمي</p>
             <ul className="site-footer__social-networks">
               {/* <li><a href="#"><i className="icon-facebook"></i></a></li> */}
-              <li><a href="https://x.com/mrsoowm"><i className="icon-x-twitter"></i></a></li>
+              <li><a href="https://x.com/mrsoowm"><i className="icon-twitter"></i></a></li>
               {/* <li><a href="#"><i className="icon-linkedin"></i></a></li> */}
               <li><a href="https://instagram.com/mrsoowm"><i className="icon-instagram"></i></a></li>
               {/* <li><a href="#"><i className="icon-youtube-play"></i></a></li> */}
