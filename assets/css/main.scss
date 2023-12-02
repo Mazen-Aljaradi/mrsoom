@@ -1292,6 +1292,7 @@ h5 {
 
   .section__intro {
     margin-top: 100px;
+    margin-bottom: 50px;
 
     @include breakpoint(phone) {
       margin-bottom: 93px;
